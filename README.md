@@ -12,4 +12,5 @@ When user enters invalid value, scrollBar placeholder will tell the user to give
 
 # Detailed View of search with image details
 Clicking on an image bring the user to a detail page which displays that image along with some additional information
+
 <img width="349" alt="Screenshot 2022-06-05 at 9 39 20 AM" src="https://user-images.githubusercontent.com/68315391/172034653-5cc3c68d-5a4f-4377-bdc6-7c95ea490b42.png">
