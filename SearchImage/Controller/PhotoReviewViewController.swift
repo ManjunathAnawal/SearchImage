@@ -27,9 +27,12 @@ class PhotoReviewViewController: UIViewController {
     
     private func updateUIView() {
         guard let photoIndex = photoIndex,
-              let photo = photos?[photoIndex] else { return }
-        updateImageView(from: photo)
-        updateImageDetails(from: photo)
+              let photos = photos  else { return }
+            if photos.count > 0 {
+                let photo = photos[photoIndex]
+                updateImageView(from: photo)
+                updateImageDetails(from: photo)
+            }
     }
     
     private func updateImageView(from photo: PhotoModel) {
